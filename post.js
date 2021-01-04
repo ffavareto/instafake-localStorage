@@ -4,7 +4,7 @@ function sendPubli() {
   let username = document.getElementById('username').value
   let urlPhoto = document.getElementById('url').value
 
-  publicacao.push(
+  publicacao.unshift(
     {
       username: username,
       urlPhoto: urlPhoto
